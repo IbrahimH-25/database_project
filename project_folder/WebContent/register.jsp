@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
-<head><title>Registration for project</title></head>
+<head><title>Registration for Daves Tree cutting service</title></head>
 <body>
 	<div align="center">
 		<p> ${errorOne } </p>
@@ -10,7 +10,7 @@
 		<form action="register">
 			<table border="1" cellpadding="5">
 				<tr>
-					<th>Username: </th>
+					<th>Email: </th>
 					<td align="center" colspan="3">
 						<input type="text" name="email" size="45"  value="example@gmail.com" onfocus="this.value=''">
 					</td>
@@ -28,9 +28,30 @@
 					</td>
 				</tr>
 				<tr>
-					<th>Birthday: </th>
+					<th>Address: </th>
 					<td align="center" colspan="3">
-						<input type="text" name="birthday" size="45" value="YYYY-MM-DD" onfocus="this.value=''">
+						<input type="text" name="Address" size="45" value="Address" onfocus="this.value=''">
+					</td>
+	
+				</tr>
+				<tr>
+					<th>Phone Number: </th>
+					<td align="center" colspan="3">
+						<input type="text" name="phoneNumber" size="45" value="+x-xxx-xxx-xxxx" onfocus="this.value=''">
+					</td>
+	
+				</tr>
+				<tr>
+					<th>Client ID: </th>
+					<td align="center" colspan="3">
+						<input type="text" name="clientID" size="45" value="clientId" onfocus="this.value=''">
+					</td>
+	
+				</tr>
+				<tr>
+					<th>Credit Card: </th>
+					<td align="center" colspan="3">
+						<input type="text" name="creditCard" size="45" value="creditCard" onfocus="this.value=''">
 					</td>
 	
 				</tr>

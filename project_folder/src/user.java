@@ -10,8 +10,8 @@ public class user
 	    protected String adress_state;
 	    protected String adress_zip_code;
 	    protected String clientID;
-	    protected int creditCard;
-	    protected int phoneNum;
+	    protected String creditCard;
+	    protected String phoneNum;
 	 
 	    //constructors
 	    public user() {

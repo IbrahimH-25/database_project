@@ -21,7 +21,7 @@
                 <th>Last name</th>
                 <th>Adress</th>
                 <th>Password</th>
-                <th>Birthday</th>
+                <th>Birthday2</th>
                 <th>cash_bal($)</th>
                 <th>PPS_bal</th>
             </tr>
